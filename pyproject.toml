@@ -3,7 +3,7 @@ name = "hexlet-code"
 version = "0.1.0"
 description = "mind games"
 readme = "README.md"
-requires-python = ">=3.15"
+requires-python = ">=3.11"
 dependencies = [
     "asciinema>=2.4.0",
     "prompt>=0.4.1",
