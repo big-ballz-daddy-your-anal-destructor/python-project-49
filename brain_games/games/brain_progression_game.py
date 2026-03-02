@@ -1,6 +1,6 @@
 from random import choice, randint
 
-description = ("What number is missing in this progression?")
+description = ("What number is missing in the progression?")
 
 
 def game():
