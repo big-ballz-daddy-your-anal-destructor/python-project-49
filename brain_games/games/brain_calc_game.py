@@ -1,7 +1,7 @@
 from random import choice, randint
 
-
 description = "What is the result of the expression?"
+
 
 def game():
     num1 = randint(1, 10)

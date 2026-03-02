@@ -1,7 +1,7 @@
 from random import randint
 
-
 description = ("Answer 'yes' if given number is prime. Otherwise answer 'no'.")
+
 
 def game():
     num = randint(3, 10)            

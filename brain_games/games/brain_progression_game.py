@@ -1,7 +1,7 @@
 from random import choice, randint
 
-
 description = ("What number is missing in this progression?")
+
 
 def game():
     num1 = randint(1, 30)

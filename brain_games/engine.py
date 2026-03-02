@@ -1,6 +1,6 @@
-from brain_games.cli import welcome_user
-
 import prompt
+
+from brain_games.cli import welcome_user
 
 
 def run_a_game(description, game):
@@ -11,7 +11,11 @@ def run_a_game(description, game):
         print(f"Question: {question}")
         users_answer = prompt.string("Your answer: ")
         if str(users_answer.replace(" ", "")) != str(answer):
-            print(f"'{users_answer}' is wrong answer ;(. Correct answer was '{answer}'.\nLet's try again, {name}!")
+            print(
+                f"'{users_answer}' is wrong answer ;(."
+                f"Correct answer was '{answer}'."
+                f"\nLet's try again, {name}!"
+            )
             return
         print("Correct!")
     print(f"Congratulations, {name}!")
