@@ -4,9 +4,9 @@ description = "What is the result of the expression?"
 
 
 def game():
-    num1 = randint(1, 10)
-    num2 = randint(1, 10)
-    sign = choice(["+", "-", "*"])
+    num1 = randint(1, 10)  #NOSONAR
+    num2 = randint(1, 10)  #NOSONAR
+    sign = choice(["+", "-", "*"])  #NOSONAR
     if sign == "+":
         question = f"{num1} + {num2}"
         answer = num1 + num2

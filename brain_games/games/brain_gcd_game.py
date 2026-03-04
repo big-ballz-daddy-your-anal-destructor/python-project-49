@@ -4,8 +4,8 @@ description = ("Find the greatest common divisor of given numbers.")
 
 
 def game():
-    num1 = randint(1, 10)
-    num2 = randint(1, 10)
+    num1 = randint(1, 10)  #NOSONAR
+    num2 = randint(1, 10)  #NOSONAR
     divs1 = []
     divs2 = []
     for i in range(1, num1 + 1):

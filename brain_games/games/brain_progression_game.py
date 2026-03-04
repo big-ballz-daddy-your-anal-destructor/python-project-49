@@ -4,10 +4,10 @@ description = ("What number is missing in the progression?")
 
 
 def game():
-    num1 = randint(1, 30)
-    num2 = randint(1, 10)
-    num3 = randint(0, 7)
-    sign = choice(["+", "-"])
+    num1 = randint(1, 30)  #NOSONAR
+    num2 = randint(1, 10)  #NOSONAR
+    num3 = randint(0, 7)  #NOSONAR
+    sign = choice(["+", "-"])  #NOSONAR
     prog = [num1]
     if sign == "+":
         for a in range(10):
